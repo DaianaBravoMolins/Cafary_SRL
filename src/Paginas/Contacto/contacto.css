@@ -1,0 +1,123 @@
+#tituloPagcontacto{
+    color:rgb(34, 19, 240);
+    text-align: center;
+    font-size: 115px;
+    padding-top: 160px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+}
+
+#seccionContacto{
+    padding-top: 235px;
+    margin-left: 270px;
+    margin-right: 270px;
+    color:rgb(27, 185, 132);   
+}
+
+#seccionCategoria{
+    margin-left: 270px;
+    margin-right: 270px;
+    color:rgb(27, 185, 132);
+    
+}
+#seccionComentario{
+    margin-left: 270px;
+    margin-right: 270px;
+    color: rgb(27, 185, 132); 
+}
+#exampleFormControlInput1{
+    background-color: rgb(7, 118, 7);
+    border-color: rgb(7, 118, 7);
+    color:rgb(86, 43, 150);
+}
+#exampleFormControlInput2{
+    background-color: rgb(7, 118, 7);
+    border-color: rgb(7, 118, 7);
+    color:rgb(86, 43, 150);
+}
+
+#exampleFormControlTextarea1{
+    background-color: rgb(7, 118, 7);
+    border-color: rgb(7, 118, 7);;
+ 
+}
+
+.form-label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+textarea{
+    height: 250px;
+}
+
+#enviar{
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color:rgb(7, 118, 7);
+    margin-bottom: 20px;
+    border-color: rgb(7, 118, 7);;
+    color:rgb(86, 43, 150);
+}
+
+#gridRadios1, #gridRadios2, #gridRadios3{
+    background-color: rgb(86, 43, 150);
+}
+
+#botonBusquedaMail, #botonBorrarPersona, #botonModificarData{
+    margin-left: 270px;
+    margin-right: 270px;
+    background-color:rgb(128, 7, 35);
+    margin-bottom: 20px;
+    border-color: rgb(128, 7, 35);
+    color:rgb(27, 185, 132);   
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+#botonModificarData{
+     margin-left: 30px;
+}
+
+#datosACompletar{
+    color:rgb(214, 214, 110);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+#Mail,#Mail2{
+    margin-left: 30px;
+    width:200px;
+    background-color: rgb(214, 214, 110);
+    border-color: rgb(214, 214, 110);
+}
+/* Diseño Responsivo */
+/* /////////////////////////// */
+@media(max-width: 1200px){
+    #tituloPagcontacto{
+        font-size: 80px;
+    }
+    
+#seccionContacto{
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#seccionCategoria{
+    margin-left: 170px;
+    margin-right: 170px;
+    
+}
+#seccionComentario{
+    margin-left: 170px;
+    margin-right: 170px;
+
+}
+
+#enviar{
+    margin-left: 170px;
+}
+}
